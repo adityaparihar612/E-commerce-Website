@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mygrocerystore.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="service1.png" type="image/x-icon">
+</head>
+
+<style>
+    .navbar {
+        background-color: rgb(138, 0, 138);
+    }
+
+    .navbar-brand img {
+        margin-right: 8%;
+    }
+
+    .navbar a {
+        color: white;
+    }
+
+    .navbar ul li a:hover {
+        background-color: white;
+        color: rgb(138, 0, 138);
+        border-radius: 10px;
+    }
+    .card{
+        margin: 3px;
+    }
+
+    .navbar-toggler{
+        color: white;
+        background-color: white;
+    }
+
+    #footer{
+        background-color: rgb(138, 0, 138);
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="container-fluid sticky-top">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="logggo.png" alt="" width="30" height="24"
+                                class="d-inline-block align-text-top">Mygrocerystore
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Ourfeature">Our Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shopNow">Shop Now</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#feedback">Feedback</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#aboutus">About Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="animation1photo.jpg" class="d-block w-100" height="400vh">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="animation2photo.jpg" class="d-block w-100" height="400vh">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="animation3photo.jpg" class="d-block w-100" height="400vh">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="container-fluid" id="Ourfeature">
+        <br> <br> <br>
+        <div class="row">
+            <h3 align="center" style="color: rgb(138, 0, 138); font-family: Georgia, 'Times New Roman', Times, serif">
+                Our Features
+            </h3>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <center>
+                    <img src="service1.png" width="80%">
+                </center>
+                <h5 align="center">24 Hour Delivery</h5>
+            </div>
+            <div class="col-md">
+                <center>
+                    <img src="service2.png" width="80%">
+                </center>
+                <h5 align="center">All payment Method Available</h5>
+            </div>
+            <div class="col-md">
+                <center>
+                    <img src="service3.png" width="80%">
+                </center>
+                <h5 align="center">Best Quality Product</h5>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid" id="feedback">
+        <br> <br> <br>
+        <div class="row">
+            <h3 align="center" style="color: rgb(138, 0, 138); font-family: Georgia, 'Times New Roman', Times, serif;">
+                Sent as your feedback</h3>
+        </div>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Feedback</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                            checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Complaint
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            Request for new product
+                        </label>
+                    </div>
+                    <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
+                            disabled>
+                        <label class="form-check-label" for="gridRadios3">
+                            other
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit Now</button>
+            </div>
+        </form>
+    </div>
+    <br> 
+    <div class="container-fluid" id="shopNow">
+        <br> <br> <br>
+        <div class="row">
+            <div class="col">
+                <h3 align="center" style="color: rgb(138, 0, 138); font-family: Georgia, 'Times New Roman', Times, serif;">Shop Now</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 align="center" style="color: rgb(138, 0, 138); font-family: Georgia, 'Times New Roman', Times, serif;">Vegetables</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="onion.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Onion</h5>
+                      <p class="card-text">XX Rs for 1Kg</p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="ginger.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ginger</h5>
+                      <p class="card-text">XX Rs for 1Kg</p>
+                      <a href="#" class="btn btn-primary">By Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="tomata.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tomato</h5>
+                      <p class="card-text">XX Rs for 1Kg</p>
+                      <a href="#" class="btn btn-primary">By Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="cauliflower-organically-grown.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cauliflowew</h5>
+                      <p class="card-text">XX Rs for 1Kg</p>
+                      <a href="#" class="btn btn-primary">By Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- Other products -->
+        <div class="row">
+            <div class="col">
+                <h5 align="center" style="color: rgb(138, 0, 138); font-family: Georgia, 'Times New Roman', Times, serif;">Other Products</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="102102_4-parle-gluco-biscuits-parle-g.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Parle-G</h5>
+                      <p class="card-text">XX Rs for 1 Packet</p>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="40203379_3-britannia-good-day-cashew-cookies.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Britannia Good Day Biscuits</h5>
+                      <p class="card-text">XX Rs for 1 Product</p>
+                      <a href="#" class="btn btn-primary">By Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="100022552_1-haldirams-namkeen-bhujia-sev.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Haldiram's Bhujia Sev</h5>
+                      <p class="card-text">XX Rs for 1 Product</p>
+                      <a href="#" class="btn btn-primary">By Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="40016990_3-mccain-french-fries.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">McCain Fresh Fries</h5>
+                      <p class="card-text">XX Rs for 1 Product</p>
+                      <a href="#" class="btn btn-primary">By Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <div class="cotainer-fluid" id="aboutus" style="width: 96%; ">
+        <br> <br> <br>
+        <div class="row">
+            <div class="col">
+                <h3 align="center"
+                    style="color: rgb(138, 0, 138); font-family: Georgia, 'Times New Roman', Times, serif;">About Us
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="font-family: 'Times New Roman', Times, serif; margin-left: 2%;display: inline-block;">
+                    Welcome to Mygrocerystore!!!
+                    <br><br>
+                    At Mygrocerystore, we are passionate about providing our community with the freshest and
+                    highest quality groceries. We understand the importance of good food and its role in bringing people
+                    together, which is why we strive to offer an exceptional shopping experience for all our customers.
+                    <br>
+                    Since our establishment in 2019, we have been committed to sourcing products from local farmers and
+                    trusted suppliers. We believe in supporting local businesses and promoting sustainability, which is
+                    why you'll find a wide selection of locally grown produce, artisanal products, and eco-friendly
+                    options on our shelves.
+                    <br>
+                    Our dedicated team of knowledgeable staff is always ready to assist you in finding the perfect
+                    ingredients for your meals. Whether you're a seasoned chef or a cooking enthusiast, we're here to
+                    provide recommendations, answer your questions, and ensure that you have everything you need to
+                    create delicious and wholesome dishes.
+                    <br>
+                    In addition to our extensive range of fresh produce, we offer a carefully curated selection of
+                    pantry essentials, specialty items, organic and gluten-free products, and household goods. We
+                    understand that every customer has unique dietary needs and preferences, so we strive to cater to a
+                    wide variety of tastes and lifestyles.
+                    <br>
+                    At Mygrocerystore, we value the relationships we build with our customers. We see you not
+                    just as shoppers, but as members of our community. We are proud to be a part of your everyday life,
+                    from helping you plan meals to celebrating special occasions with you.
+                    We are also committed to giving back to our community. Through partnerships with local
+                    organizations, we actively support initiatives that promote food security, sustainability, and
+                    overall well-being. Together, we can make a positive impact on the lives of those around us.
+                    <br>
+                    Thank you for choosing Mygrocerystore as your go-to destination for all your grocery
+                    needs. We look forward to serving you and being a part of your journey towards a healthier and more
+                    flavorful life.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center" id="footer">
+        <small>Copyright &copy; Mygrocerystore.com</small>
+      </div>
+</body>
+
+</html>
