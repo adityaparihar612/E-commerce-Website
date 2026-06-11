@@ -1,4 +1,4 @@
-# 🛒 MyGroceryStore - Simple E-commerce Website (Bootstrap)
+# 🛒 Simple E-commerce Website (Bootstrap)
 
 A simple and responsive **E-commerce website** built using **HTML, CSS, JavaScript, and Bootstrap**.
 This project is designed for hands-on practice to understand frontend development and basic shopping UI design.
