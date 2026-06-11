@@ -96,9 +96,4 @@ This is a great beginner project to:
 
 ## ⭐ Contribute
 
-Feel free to fork this repository and improve it. Contributions are welcome!
-
----
-
-## 📢 Connect With Me
-swayamshahu153@gmail.com
+Feel free to fork this repository and improve it. 
